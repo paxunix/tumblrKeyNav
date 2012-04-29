@@ -1,0 +1,12 @@
+Enable left-right arrow key navigation between Tumblr pages.
+
+This doesn't try to be fancy and will "work" on pages on which it should
+not, but I'm not concerned enough about that to fix it.
+
+If you're viewing a tumblr and you're on page, say, 2, and you press the
+left arrow key, you'll go to page 1; press the right arrow key and you'll go
+to page 3.
+
+It doesn't care if page 1 or page 3 don't exist or don't make sense given
+the page that you're on.  Most of them time, though, it just does what you
+want when you want it to.
