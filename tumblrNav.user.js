@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name            Tumblr Key Nav
+// @name            Tumblr:  Arrow Key Nav
 // @namespace       halpenny
 // @description     Map left/right arrow keys to prev page/next page navigation.
 // @include         http://*.tumblr.com/*
