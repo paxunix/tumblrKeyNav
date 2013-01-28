@@ -3,7 +3,7 @@
 // @namespace       halpenny
 // @description     Map left/right arrow keys to prev page/next page navigation.
 // @include         http://*.tumblr.com/*
-// @version         1.0.1
+// @version         1.0.2
 // ==/UserScript==
 
 document.body.onkeydown = function(evt) {
@@ -16,7 +16,7 @@ if (document.activeElement.form)
 
 var els = document.location.pathname.split(/\//);
 
-if (els.length == 2 || els[1] && els[1] === "page")
+if (els[1] === "page" || els[1] === "")
 {
     var curPage = +(els[2] || 1);
     var nextPage = curPage + 1;
